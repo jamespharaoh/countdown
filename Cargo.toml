@@ -1,19 +1,24 @@
 [package]
-name = "countdown"
-version = "0.1.0"
-authors = ["James Pharaoh <james@pharaoh.uk>"]
-edition = "2018"
+
+	name = "countdown"
+	version = "0.1.0"
+	authors = ["James Pharaoh <james@pharaoh.uk>"]
+	edition = "2021"
 
 [lib]
-name = "countdown"
+
+	name = "countdown"
 
 [[bin]]
-name = "countdown-cli"
-path = "src/bin/cli.rs"
+
+	name = "countdown-cli"
+	path = "src/bin/cli.rs"
 
 [dependencies]
-rand = "0.6"
+
+	rand = "*"
 
 [profile.release]
-lto = true
+
+	lto = true
 
