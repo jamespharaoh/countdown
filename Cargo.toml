@@ -18,6 +18,11 @@
 
 	rand = "*"
 
+[dependencies.clap]
+
+	version = "*"
+	features = [ "derive" ]
+
 [profile.release]
 
 	lto = true
